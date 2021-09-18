@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Menggambar Primitif</title>
     <script src="main.js"></script>
 </head>
 <body onload="main()">
-    <canvas id="myCanvas" width="750" height="500" style="border: 1px solid black;">
-
-    </canvas>
+    <div class="container d-flex row">
+        <div class="container">
+            <div class="">
+                <h2>Menggambar Titik</h2>
+            </div>
+            <canvas id="canvas-titik" width="750" height="500" style="border: 1px solid black;">
+        
+            </canvas>
+        </div>
+        <div class="container">
+            <div class="">
+                <h2>Menggambar Garis</h2>
+            </div>
+            <canvas id="canvas-garis" width="750" height="500" style="border: 1px solid black;">
+        
+            </canvas>
+        </div>
+    </div>
+    <div class="container d-flex row">
+        <div class="container">
+            <div class="">
+                <h2>Menggambar Segitiga</h2>
+            </div>
+            <canvas id="canvas-segitiga" width="750" height="500" style="border: 1px solid black;">
+                
+            </canvas>
+        </div>
+    </div>
 </body>
 </html>
